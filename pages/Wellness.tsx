@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Language } from '../types';
 import { PRODUCTS } from '../constants';
@@ -29,9 +28,9 @@ const Wellness: React.FC<Props> = ({ lang }) => {
           <div className="relative group">
             <div className="aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl relative">
               <img 
-                src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&auto=format&fit=crop" 
-                className="absolute inset-0 w-full h-full object-cover brightness-75 transition-transform duration-1000 group-hover:scale-110" 
-                alt="SPA Setting"
+                src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?q=80&w=1200&auto=format&fit=crop" 
+                className="absolute inset-0 w-full h-full object-cover brightness-90 transition-transform duration-1000 group-hover:scale-110" 
+                alt="Woman in robe on wooden bench with Luffa slippers"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-stone-900 via-transparent to-transparent opacity-60" />
               <div className="absolute bottom-10 left-10 text-white">
