@@ -61,6 +61,22 @@ export const PRODUCTS: Product[] = [
     image: 'https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop'
   },
   {
+    id: 'infusion-magia-roja',
+    category: 'infusions',
+    name: {
+      EN: 'Red Magic: Hibiscus & Fruit',
+      FR: 'Magie Rouge : Hibiscus et Fruits',
+      ES: 'Infusión Magia Roja: Hibiscus y Frutas'
+    },
+    description: {
+      EN: 'A vibrant blend of hibiscus flowers and real fruit chunks. Add hot water to release the red magic.',
+      FR: 'Un mélange vibrant de fleurs d\'hibiscus et de morceaux de vrais fruits.',
+      ES: 'Una vibrante mezcla de flor de hibiscus y trozos de fruta real. Agrega agua caliente para liberar la magia roja.'
+    },
+    price: 35,
+    image: 'https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?q=80&w=800&auto=format&fit=crop'
+  },
+  {
     id: 'bolas-de-oro',
     category: 'snacks',
     name: {

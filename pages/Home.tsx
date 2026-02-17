@@ -12,14 +12,14 @@ const Home: React.FC<Props> = ({ lang }) => {
   return (
     <div className="animate-in fade-in duration-700 bg-stone-50">
       {/* Hero Section */}
-      <section className="relative h-[90vh] overflow-hidden flex items-center justify-center">
+      <section className="relative h-screen overflow-hidden flex items-center justify-center">
         <img 
           src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=1920&auto=format&fit=crop" 
           className="absolute inset-0 w-full h-full object-cover brightness-75 scale-105 animate-pulse-slow"
           alt="Artisanal Ritual"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-stone-900/40 via-transparent to-stone-50" />
-        <div className="relative z-10 text-center px-6 max-w-5xl">
+        <div className="relative z-10 text-center px-6 max-w-4xl">
           <span className="text-white text-[10px] font-bold uppercase tracking-[0.3em] mb-4 block">@oro.a.oro Inspiration</span>
           <h1 className="text-5xl md:text-8xl text-white font-bold mb-8 italic drop-shadow-2xl leading-[0.9]">
             {UI_STRINGS.hero_title[lang]}
