@@ -1,0 +1,8 @@
+{
+  "name": "Oro a Oro - Luxury Wellness & Infusions",
+  "description": "A high-end web experience for @oro.a.oro, showcasing Colombian artisanal infusions, luxury Luffa footwear, and sustainable wellness products designed for the Canadian market.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
